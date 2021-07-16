@@ -1,0 +1,734 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header {
+	position: absolute;
+	width: 1920px;
+	height: 650px;
+	background-color: #FED100;
+}
+.row {
+	position: relative;
+	width: 1320px;
+	margin: 0 auto;
+}
+.wraper {
+	display: flex;
+	justify-content: space-between;
+	height: 109px;
+}
+.label-h1 {
+	position: absolute;
+	font-size: 30px;
+	font-weight: 600;
+	font-family: Montserrat;
+	color: #333333;
+	width: 122px;
+	top: 486px;
+	left: 125px;
+	cursor: pointer;
+	transform: rotate(-7deg);
+}
+.label-h1 a {
+	position: absolute;
+	font-size: 30px;
+	font-weight: 600;
+	font-family: Montserrat;
+	color: #333333;
+	cursor: pointer;
+	text-decoration: none;
+}
+.image img {
+	width: 381px;
+	height: 580px;
+}
+.h1-left {
+    position: relative;
+    width: 118px;
+    top: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #333333;
+    cursor: pointer;
+    height: 40px;
+}
+.h1-left a {
+	position: relative;
+    width: 118px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #333333;
+    cursor: pointer;
+    text-decoration: none;
+}
+.main {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: 494px;
+	margin: 0 auto;
+	top: 47px;
+	height: 50px;
+}
+.main ul li {
+	display: inline-flex;
+	list-style: none;
+}
+.main ul li a {
+	color: #333333;
+	font-size: 18px;
+	text-decoration: none;
+	margin: 0 20px;
+	cursor: pointer;
+	font-family: Montserrat;
+	font-weight: 500;
+}
+.phone-right {
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	width: 206px;
+	height: 50px;
+	top: 48px;
+}
+.phone-right a {
+	color: #333333;
+	cursor: pointer;
+	font-family: Montserrat;
+	font-weight: 600;
+	font-size: 24px;
+}
+.head-center-block {
+	width: 1320px;
+	height: 541px;
+	margin: 0 auto;
+}
+.block-info-left {
+	position: relative;
+	width: 480px;
+	top: 63px;
+}
+.head-up {
+	position: relative;
+	font-size: 70px;
+	font-family: Montserrat;
+	font-weight: 700;
+	color: #333333;
+}
+.head-down {
+	position: relative;
+	font-family: Montserrat;
+	font-size: 70px;
+	font-weight: 700;
+	line-height: 0.8;
+	color: #333333;
+}
+.small-head {line-height: 3;}
+.small-head span {font-size: 30px;font-family: Montserrat;font-weight: 600;color: #333333;}
+.button {
+
+}
+.button button {
+	width: 304px;
+	height: 60px;
+	font-size: 24px;
+	font-family: Montserrat;
+	font-weight: 600;
+	color: #fff;
+	border: none;
+	background-color: #FF352B;
+}
+.bgc-btn {
+	position: absolute;
+	width: 304px;
+	height: 60px;
+	border: 2px solid #fff;
+	left: 15px;
+	top: 246px;
+}
+.image {position: relative;width: 381px;height: 580px;left: 604px;top: -641px;}
+.image-truck {
+	position: relative;
+	width: 509px;
+	height: 310px;
+	left: 925px;
+	top: -181px;
+}
+.info-short {
+	position: absolute;
+    top: 380px;
+    display: flex;
+}
+.selector {
+    display: flex;
+}
+#oneTruck {
+
+}
+#twoTruck {position: relative;right: 55px;}
+#truck {position: relative;left: -37px;top: 5px;}
+#oneTigger {
+
+}
+#twoTigger {position: relative;right: 42px;}
+#tigger {position: relative;top: 5px;right: 23px;}
+#oneGroup {
+
+}
+#twoGroup {position: relative;right: 42px;}
+#Group {position: relative;top: 5px;right: 23px;}
+.telephone {position: absolute;width: 100px;height: 100px;top: 530px;left: 1470px;}
+#bgc-phone {/* position: relative; */top: 35px;}
+#telephone {
+	position: relative;
+	top: -79px;
+	left: 22px;
+}
+.container {
+	position: absolute;
+	top: 650px;
+	width: 1920px;
+	height: 482px;
+}
+.head-container {position: relative;width: 1440px;margin: 0 auto;}
+.row-container {position: relative;width: 334px;height: 37px;/* left: 614px; */font-size: 30px;font-family: Montserrat;font-weight: 600;top: 95px;margin: 0 auto;}
+.wraper-container {display: flex;position: relative;top: 161px;/* left: 165px; */width: 1198px;margin: 0 auto;}
+.one-block {
+    display: flex;
+    width: 555px;
+    height: 76px;
+}
+#one-black {width: 40px;height: 35px;}
+#one-yellow {position: relative;right: 42px;width: 40px;height: 35px;}
+#two-black {width: 40px;height: 35px;}
+#two-yellow {position: relative;right: 42px;width: 40px;height: 35px;}
+#three-black {position: relative;width: 40px;height: 35px;}
+#three-yellow {position: relative;right: 42px;width: 40px;height: 35px;}
+#frou-black {width: 40px;height: 35px;}
+#frou-yellow {
+	position: relative;
+	right: 42px;
+	width: 40px;
+	height: 35px;
+}
+.one-block h6 {position: relative;width: 475px;font-size: 23px;font-family: Montserrat;font-weight: 500;}
+.one-block p {position: relative;top: 15px;font-size: 16px;font-family: Montserrat;font-weight: 400;}
+.two-block {position: relative;display: flex;width: 537px;}
+.three-block {position: relative;top: 33px;display: flex;}
+.three-block h6 {position: relative;font-size: 23px;font-family: Montserrat;font-weight: 500;}
+.three-block p {
+	position: relative;
+	top: 15px;
+	font-size: 16px;
+	font-family: Montserrat;
+	font-weight: 300;
+}
+.frou-block {
+	position: relative;
+	display: flex;
+	top: 48px;
+}
+.container-block-left {position: relative;height: 198px;}
+.container-block-right {position: relative;margin: 0 134px;}
+.frou-block-frou {
+
+}
+.two-block-two {
+
+}
+.two-block-two h6 {font-size: 23px;font-family: Montserrat;font-weight: 500;}
+.two-block-two p {font-size: 16px;font-family: Montserrat;font-weight: 300;top: 15px;position: relative;}
+.frou-block-frou h6 {position: relative;font-size: 23px;font-family: Montserrat;font-weight: 500;}
+.frou-block-frou p {
+	position: relative;
+	top: 15px;
+	font-size: 16px;
+	font-family: Montserrat;
+	font-weight: 300;
+}
+.three-block-three {position: relative;width: 463px;}
+.one-block-one {
+	
+}
+.head-price {position: relative;font-size: 30px;font-family: Montserrat;font-weight: 600;width: 90px;height: 34px;margin: 59px auto;}
+.container-price {position: absolute;top: 1132px;width: 1920px;height: 843px;}
+.head-price-plus {
+	position: relative;
+	font-size: 24px;
+	font-family: Montserrat;
+	font-weight: 600;
+	width: 629px;
+	height: 29px;
+	margin: 15px auto;
+}
+.price-list-block {position: absolute;display: flex;width: 1305px;height: 579px;left: 309px;top: 250px;}
+.price-block-one {position: absolute;width: 421px;height: 579px;border: 1px solid #EBEBEB;box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);}
+.price-block-two {position: absolute;width: 421px;height: 579px;border: 1px solid #FED100;left: 444px;box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);}
+.price-block-three {position: absolute;width: 421px;height: 579px;border: 1px solid #EBEBEB;left: 885px;box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);}
+.price-block-one main {position: absolute;width: 375px;height: 375px;left: 22px;top: 84px;}
+.price-block-one ul {list-style: none;text-align: center;}
+.price-info-one {font-size: 24px;font-family: Montserrat;font-weight: 600;color: #333333;}
+.price-info-two {font-size: 16px;font-family: Montserrat;font-weight: 400;color: #333333;top: 60px;position: relative;}
+.price-info-three {font-size: 16px;font-family: Montserrat;font-weight: 400;color: #333333;position: relative;top: 110px;}
+.price-info-frou {position: relative;top: 160px;font-size: 16px;font-family: Montserrat;font-weight: 400;color: #333333;}
+.price-info-two-one {font-size: 24px;font-family: Montserrat;font-weight: 600;color: #333333;}
+.price-info-two-two {font-size: 16px;font-family: Montserrat;font-weight: 400;color: #333333;top: 60px;position: relative;}
+.price-info-two-three {font-size: 16px;font-family: Montserrat;font-weight: 400;color: #333333;position: relative;top: 110px;}
+.price-info-frou {
+
+}
+.price-block-two main {position: absolute;width: 375px;height: 375px;left: 22px;top: 84px;}
+.price-block-two ul {list-style: none;text-align: center;}
+.price-block-three main {position: absolute;width: 375px;height: 375px;left: 22px;top: 84px;}
+.price-block-three ul {
+    list-style: none;
+    text-align: center;
+}
+.price-info-three-one {font-size: 24px;font-family: Montserrat;font-weight: 600;color: #333333;}
+.price-info-three-two {font-size: 16px;font-family: Montserrat;font-weight: 400;color: #333333;top: 60px;position: relative;}
+.price-info-three-three {font-size: 16px;font-family: Montserrat;font-weight: 400;color: #333333;top: 110px;position: relative;}
+.price-info-three-frou {font-size: 16px;font-family: Montserrat;font-weight: 400;color: #333333;top: 160px;position: relative;}
+.price-one {line-height: 36px;text-align: center;font-size: 30px;font-family: Montserrat;font-weight: 600;color: #333333;top: 246px;position: relative;}
+.price-two {line-height: 36px;text-align: center;font-size: 30px;font-family: Montserrat;font-weight: 600;color: #333333;top: 246px;position: relative;}
+.price-three {line-height: 36px;text-align: center;font-size: 30px;font-family: Montserrat;font-weight: 600;color: #333333;top: 246px;position: relative;}
+.button-one {position: relative;top: 501px;width: 250px;height: 51px;border: none;background: #FED100;left: 85.5px;font-size: 20px;font-family: Montserrat;font-weight: 500;line-height: 24px;color: #333333;}
+.button-two {position: relative;top: 501px;width: 250px;height: 51px;border: none;background: #FED100;left: 85.5px;font-size: 20px;font-family: Montserrat;font-weight: 500;line-height: 24px;color: #333333;}
+.button-three {position: relative;top: 501px;width: 250px;height: 51px;border: none;background: #FED100;left: 85.5px;font-size: 20px;font-family: Montserrat;font-weight: 500;line-height: 24px;color: #333333;}
+.container-slider {
+	position: absolute;
+	width: 1920px;
+	height: 800px;
+	top: 1975px;
+}
+.container-slider-head {
+	position: absolute;
+	text-align: center;
+	width: 1920px;
+	top: 48px;
+	font-size: 30px;
+	font-family: Montserrat;
+	font-weight: 600;
+	color: #333333;
+}
+.container-slider-head-down {
+	position: absolute;
+	text-align: center;
+	top: 100px;
+	width: 1920px;
+	font-size: 24px;
+	color: #333333;
+	font-family: Montserrat;
+	font-weight: 600;
+}
+.button-slider {
+	position: relative;
+	width: 642px;
+	height: 50px;
+	display: flex;
+	top: 176px;
+	margin: 0 auto;
+}
+.button-slider button {width: 201px;height: 50px;margin: 0px 20px;box-sizing: border-box;border: 1px solid #FED100;background: #fff;}
+.button-slider button a {font-size: 20px;font-family: Montserrat;font-weight: 500;color: #333333;text-decoration: none;}
+.slider {
+	position: absolute;
+	width: 1040px;
+	height: 453px;
+	top: 286px;
+	left: 354px;
+}
+.slider-main {
+    position: absolute;
+    width: 250px;
+    top: 97px;
+    height: 285px;
+    left: 101px;
+}
+.slider-ul {list-style: none;}
+.slider-one {position: relative;font-size: 24px;font-family: Montserrat;font-weight: 600;color: #333333;}
+.slider-two {position: relative;font-size: 16px;font-family: Montserrat;font-weight: 400;top: 37px;color: #333333;}
+.slider-three {position: relative;font-size: 16px;font-family: Montserrat;font-weight: 400;color: #333333;top: 74px;}
+.slider-frou {
+    position: relative;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #333333;
+    top: 118px;
+}
+.slider-one span {/* position: relative; *//* left: 13px; */}
+.slider-two span {position: relative;left: 15px;}
+.slider-three span {position: relative;left: 15px;}
+.slider-frou span {position: relative;left: 15px;}
+.slider-five span {
+	position: relative;
+	left: 15px;
+}
+.slider-five {position: relative;font-size: 16px;font-family: Montserrat;font-weight: 400;color: #333333;top: 159px;}
+.slider-ul img {
+
+}
+.slider-image {position: relative;width: 1040px;display: flex;left: 400px;}
+.slider-image img {position: relative;}
+.slider-btn {
+	position: absolute;
+	width: 250px;
+	height: 50px;
+	border: none;
+	left: 100px;
+	top: 408px;
+	font-family: Montserrat;
+	font-size: 20px;
+	color: #333333;
+	font-weight: 500;
+	background: #FED100;
+}
+.left-img-slider {position: relative;top: 247px;}
+.right-img-slider {
+	position: absolute;
+	left: 1189px;
+	top: 235px;
+}
+.reviews-container {
+	position: absolute;
+	width: 1920px;
+	height: 665px;
+	top: 2775px;
+	background: #FED100;
+}
+.reviews-head {
+	position: relative;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 37px;
+	color: #333333;
+	width: 126px;
+	height: 37px;
+	margin: 100px auto;
+}
+.reviews-people {position: relative;display: flex;width: 1304px;margin: 0 auto;}
+.reviews-people-one {position: relative;width: 420px;}
+.reviews-people-two {position: relative;width: 420px;}
+.reviews-people-three {position: relative;width: 420px;}
+.reviews-button {position: relative;width: 250px;height: 50px;border: 1px solid #333333;font-size: 20px;font-family: Montserrat;margin: 0 auto;text-align: center;align-items: center;top: 98px;}
+.reviews-name-three {position: relative;font-size: 24px;font-family: Montserrat;font-weight: 600;color: #333333;line-height: 29px;}
+.reviews-date-three {position: relative;top: 10px;font-size: 16px;font-family: Montserrat;font-weight: 400;line-height: 21px;color: #333333;}
+.reviewss-three {position: relative;top: 11px;left: 9px;}
+.reviews-button a {
+	font-size: 20px;
+	font-family: Montserrat;
+	text-align: center;
+	color: #333333;
+	text-decoration: none;
+	top: 11px;
+	position: relative;
+}
+.reviews-paragraph-three {position: relative;top: 19px;font-size: 16px;font-family: Montserrat;font-weight: 400;line-height: 21px;color: #333333;}
+.reviews-read-completely-three {position: relative;top: 31px;font-size: 16px;font-family: Montserrat;font-weight: 400;line-height: 21px;color: #333333;}
+.reviews-name-two {position: relative;font-size: 24px;font-family: Montserrat;font-weight: 600;line-height: 29px;color: #333333;}
+.reviews-date-two {position: relative;top: 10px;font-size: 16px;font-family: Montserrat;font-weight: 400;line-height: 21px;color: #333333;}
+.reviewss-two {position: relative;top: 11px;left: 9px;}
+.reviews-read-completely-three a {font-size: 16px;font-family: Montserrat;font-weight: 400;line-height: 21px;color: #333333;}
+.reviews-read-completely-two a {font-size: 16px;font-family: Montserrat;font-weight: 400;line-height: 21px;color: #333333;}
+.reviews-read-completely a {
+	font-size: 16px;
+	font-family: Montserrat;
+	font-weight: 400;
+	line-height: 21px;
+	color: #333333;
+}
+.reviews-paragraph-two {position: relative;top: 19px;font-size: 16px;font-family: Montserrat;font-weight: 400;line-height: 21px;color: #333333;}
+.reviews-read-completely-two {position: relative;top: 31px;font-size: 16px;font-family: Montserrat;font-weight: 400;line-height: 21px;color: #333333;}
+.reviews-name {
+	position: relative;
+	font-size: 24px;
+	font-family: Montserrat;
+	font-weight: 600;
+	line-height: 29px;
+	color: #333333;
+}
+.reviews-date {
+	position: relative;
+	top: 10px;
+	font-size: 16px;
+	font-family: Montserrat;
+	font-weight: 400;
+	line-height: 21px;
+	color: #333333;
+}
+.reviewss {
+	position: relative;
+	top: 11px;
+	left: 9px;
+}
+.reviews-container-one {
+    display: flex;
+    position: relative;
+}
+.reviews-container-three {display: flex;}
+.reviews-container-two {display: flex;}
+.reviews-container-one img {
+
+}
+.reviews-container-two img {
+
+}
+.reviews-container-three img {
+
+}
+.reviews-paragraph {
+	position: relative;
+	top: 19px;
+	font-size: 16px;
+	font-family: Montserrat;
+	font-weight: 400;
+	line-height: 21px;
+	color: #333333;
+}
+.reviews-read-completely {
+	position: relative;
+	top: 31px;
+	font-size: 16px;
+	font-family: Montserrat;
+	font-weight: 400;
+	line-height: 21px;
+	color: #333333;
+}
+.sending-form {position: absolute;top: 3440px;width: 1920px;height: 436px;}
+.sending-form-container {position: absolute;top: 124px;left: 459px;}
+.sending-form-container h1 {position: relative;font-size: 30px;font-family: Montserrat;font-weight: 600;line-height: 36px;color: #333333;}
+.sending-form-container span {position: relative;font-size: 16px;font-family: Montserrat;font-weight: 400;top: 10px;color: #333333;}
+.sending-form-container form {position: absolute;display: flex;top: 102px;width: 1075px;}
+.sending-form-container form p {
+	position: relative;
+	top: 65px;
+	width: 244px;
+	right: 90px;
+	font-size: 12px;
+	font-family: Montserrat;
+	font-weight: 400;
+	color: #333333;
+}
+#name {position: relative;width: 300px;height: 50px;border: none;border-bottom: 1px solid #333333;}
+#phone {position: relative;width: 300px;height: 50px;border: none;left: 72px;border-bottom: 1px solid #333333;}
+#button {position: relative;left: 147px;width: 250px;height: 50px;border: none;background: #FF352B;}
+#radio-button {width: 12px;height: 12px;position: relative;top: 68px;right: 97px;}
+#button a {
+	font-size: 18px;
+	font-family: Montserrat;
+	font-weight: 500;
+	line-height: 24px;
+	text-decoration: none;
+	color: #F2F2F2;
+}
+.contacts-container {
+	position: absolute;
+	width: 1920px;
+	top: 3876px;
+	height: 666px;/*
+	background: url("google-maps.png");*/
+}
+.contacts {position: absolute;width: 368px;height: 326px;top: 162px;left: 449px;background: #ffffff;box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);}
+.contacts-container-main {
+
+}
+.contacts-head {position: relative;top: 40px;left: 35px;font-size: 30px;line-height: 36px;font-family: Montserrat;font-weight: 600;font-style: normal;color: #333333;}
+.contacts-ul {position: relative;top: 70px;left: 30px;list-style: none;}
+.contacts-li-one {}
+.contacts-li-two {
+    position: relative;
+    top: 19px;
+}
+.contacts-li-three {position: relative;top: 38px;}
+.contacts-img-one {
+
+}
+.contacts-img-two {
+
+}
+.contacts-img-three {
+
+}
+.contacts-a-one {position: relative;left: 5px;text-decoration: none;font-size: 16px;font-family: Montserrat;font-weight: 400;line-height: 21px;color: #333333;font-style: normal;}
+.contacts-a-two {position: relative;left: 5px;text-decoration: none;font-size: 16px;font-family: Montserrat;font-weight: 400;line-height: 21px;color: #333333;font-style: normal;}
+.contacts-a-three {
+	position: relative;
+	left: 5px;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: Montserrat;
+	font-weight: 400;
+	line-height: 21px;
+	color: #333333;
+	font-style: normal;
+}
+.container-footer {
+	position: absolute;
+	width: 1920px;
+	height: 401px;
+	background: #FED100;
+	top: 4542px;
+}
+.social-networks {position: relative;display: flex;justify-content: flex-end;top: 170px;margin: 0 20px;}
+.YouTube {position: relative;right: 58px;}
+.VK {position: relative;right: 41px;}
+.FaceBook {position: relative;right: 25px;}
+.Instagram {
+	position: relative;
+	right: 10px;
+}
+.footer {position: absolute;width: 1306px;left: 307px;height: 200px;top: 100px;display: flex;}
+.footer-left {
+
+}
+.footer-head {font-size: 30px;font-weight: 600;font-family: Montserrat;line-height: 36px;color: #333333;}
+.footer-security {position: relative;top: 44px;width: 207px;box-sizing: border-box;margin: 0;padding: 0;}
+.footer-security a {font-weight: 400;font-family: Montserrat;color: #333333;font-size: 16px;text-decoration: none;}
+.footer-data-processing {position: relative;top: 85px;width: 241px;}
+.footer-data-processing a {font-weight: 400;font-family: Montserrat;color: #333333;font-size: 16px;text-decoration: none;}
+.footer-left-center {position: relative;left: 180px;top: -15px;}
+.footer-left-center-main {
+
+}
+.footer-left-center-ul {list-style: none;}
+.flcli {margin: 15px 0px;}
+.flclia {font-size: 20px;font-family: Montserrat;font-weight: 500;text-decoration: none;line-height: 24px;color: #333333;}
+.footer-right-center {position: relative;left: 350px;}
+.links {
+
+}
+.links-img-one {
+
+}
+.links-img-two {
+
+}
+.links-img-three {
+
+}
+.links-img-frou {
+
+}
+.footer-links {
+
+}
+.footer-links-a {font-size: 20px;font-weight: 500;font-family: Montserrat;line-height: 24px;color: #333333;}
+.footer-right {
+    position: absolute;
+    left: 1055px;
+}
+.footer-right button {width: 250px;height: 44px;border: 1px solid #333333;background: #FED100;}
+.footer-right button a {position: relative;font-size: 20px;text-decoration: none;font-family: Montserrat;font-weight: 500;font-style: normal;line-height: 24px;color: #333333;}
+.footer-telephone {text-align: center;}
+.footer-telephone-a {position: relative;font-size: 20px;font-family: Montserrat;font-weight: 500;line-height: 24px;color: #333333;top: 10px;}
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      #map-container {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        font-family: "Roboto", sans-serif;
+        box-sizing: border-box;
+      }
+
+      #map-container button {
+        background: none;
+        color: inherit;
+        border: none;
+        padding: 0;
+        font: inherit;
+        font-size: inherit;
+        cursor: pointer;
+      }
+
+      #map {
+        position: absolute;
+        left: 22em;
+        top: 0;
+        right: 0;
+        bottom: 0;
+      }
+
+      #locations-panel {
+        position: absolute;
+        left: 0;
+        width: 22em;
+        top: 0;
+        bottom: 0;
+        overflow-y: auto;
+        background: white;
+        padding: 0.5em;
+        box-sizing: border-box;
+      }
+
+      @media only screen and (max-width: 876px) {
+        #map {
+          left: 0;
+          bottom: 50%;
+        }
+
+        #locations-panel {
+          top: 50%;
+          right: 0;
+          width: unset;
+        }
+      }
+
+      #locations-panel-list .section-name {
+        font-weight: 500;
+        font-size: 0.9em;
+        margin: 1.8em 0 1em 1.5em;
+      }
+
+      #locations-panel-list .location-result {
+        position: relative;
+        padding: 0.8em 3.5em 0.8em 1.4em;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+        cursor: pointer;
+      }
+
+      #locations-panel-list .location-result:first-of-type {
+        border-top: 1px solid rgba(0, 0, 0, 0.12);
+      }
+
+      #locations-panel-list .location-result:last-of-type {
+        border-bottom: none;
+      }
+
+      #locations-panel-list .location-result.selected {
+        outline: 2px solid #4285f4;
+      }
+
+      #locations-panel-list button.select-location {
+        margin-bottom: 0.6em;
+      }
+
+      #locations-panel-list .location-result h2.name {
+        font-size: 1em;
+        font-weight: 500;
+        margin: 0;
+      }
+
+      #locations-panel-list .location-result .address {
+        font-size: 0.9em;
+        margin-bottom: 0.5em;
+      }
+
+      #location-results-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
